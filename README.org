@@ -1,0 +1,40 @@
+* WHAT
+
+  A collection of Automator workflows that I've written:
+
+** Import link(s) to DEVONthink
+
+   An Automator wrapper around my [[https://github.com/dhess/applescripts][Mail.app-to-DEVONthink-Pro]]
+   AppleScript for importing specially-formatted Mail.app messages
+   into DEVONthink Pro.
+
+   The only reason this workflow exists is to install it as a Service,
+   so that you can assign a hot-key to the import process in Mail.app,
+   or so that you can access the AppleScript in Mail.app without
+   enabling the global AppleScript menu bar icon.
+
+* INSTALLING
+
+** Import link(s) to DEVONthink
+
+   First, install my [[https://github.com/dhess/applescripts][Import link(s) to DEVONthink]] AppleScript in
+   ~/Library/Scripts/Applications/Mail/. Then, copy (don't symlink --
+   it won't work) the Import link(s) to DEVONthink Automator workflow
+   into your ~/Library/Services/ directory, which you'll need to
+   create if it doesn't already exist.
+
+   Once the AppleScript and the Automator workflow are installed, you
+   can access the workflow as a Service from the Mail->Services menu
+   in Mail.app.
+
+* LICENSE
+
+  All scripts authored by me in this distribution are licensed under
+  the [[http://www.opensource.org/licenses/BSD-3-Clause][BSD 3-clause license]]. Because Automator workflows don't have a
+  convenient place to put the license text, I've included this license
+  in the [[file:LICENSE][LICENSE]] file.
+
+* CONTACT
+
+- email: [[mailto:src@drewhess.com][Drew Hess <src@drewhess.com>]]
+- web: [[http://www.drewhess.com/]]
