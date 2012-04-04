@@ -32,7 +32,7 @@
   All scripts authored by me in this distribution are licensed under
   the [[http://www.opensource.org/licenses/BSD-3-Clause][BSD 3-clause license]]. Because Automator workflows don't have a
   convenient place to put the license text, I've included this license
-  in the [[file:LICENSE][LICENSE]] file.
+  in the LICENSE file.
 
 * CONTACT
 
