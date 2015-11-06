@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>330</string>
+	<string>417</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2.2</string>
+	<string>2.6</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -25,7 +25,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0.1</string>
+				<string>1.0.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
@@ -56,7 +56,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
 				<key>CFBundleVersion</key>
-				<string>1.0.1</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -102,14 +102,12 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>414.000000:408.000000</string>
+				<string>309.000000:316.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
